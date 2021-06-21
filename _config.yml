@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Luke Busstra
+title: Software Engineer
+email: luke.busstra@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -20,24 +20,14 @@ darkmode: false
 
 # Social links
 twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+github_username:  lubuss
+linkedin_username: lukebusstra
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -64,45 +54,59 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      - layout: center
+        title: My Dogs Day
+        quote: >
+          Pet services software 
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+      - layout: center
+        title: Cezerin 
+        link: https://github.com/Cezerin2/cezerin2
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - icon: fab fa-github
+            url: https://github.com/Cezerin2/cezerin2
         quote: >
-          Short overview of the project (optional)
+          React and NodeJs eCommerce platform 
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
   - title: Experience
     layout: list
     content:
+      - layout: left
+        title: Quest Payment Systems
+        sub_title: Software Engineer
+        caption: March 2020 - present
+        link: https://www.questpaymentsystems.com/
+        description: | # this will include new lines to allow paragraphs
+          Description of role
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: Cirrus Logic
+        sub_title: Software Engineer
+        caption: January 2017 - June 2019
+        link: https://www.cirrus.com/
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: top-left
+        title: Queensland University of Technology
+        sub_title: BA Engineering in Computer Software and Systems
+        caption: 2013 - 2017
         quote: >
-          Short institution or course description (optional)
+          Graduated with GPA 6 with First Class Honours
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: A Little More About Me
+      - layout: top-right
+        title: Queensland University of Technology
+        sub_title: Leadership, Development and Innovation Program
+        quote: >
+          Graduated with GPA 6 with First Class Honours
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: When I am not programming
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
@@ -111,7 +115,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
