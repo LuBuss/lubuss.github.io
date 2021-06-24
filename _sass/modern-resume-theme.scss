@@ -124,6 +124,16 @@
   }
 }
 
+.layout {
+  @media print {
+    flex-direction: column;
+
+    .details, .content {
+      width: 100%;
+    }
+  }
+}
+
 .layout-left, .layout-right {
   @media screen and (max-width: 768px) {
     flex-direction: column;
