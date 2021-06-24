@@ -30,8 +30,14 @@
   </main>
 
   {%- include footer.html -%}
-  {% if site.darkmode == false %}
-    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  <script type="text/javascript">
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add("dark");
+      }
+  </script>
+
+  {% if site.darktoggle == true %}
+  <script src="{{ '/assets/js/index.js' | relative_url }}" onload="setupTheme()"></script>
   {% endif %}
 </body>
 
