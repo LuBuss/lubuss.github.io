@@ -184,6 +184,24 @@ body {
 }
 
 @media print {
+  h4 {
+    font-size: 2rem !important;
+  }
+
+  p {
+    font-size: 1.4rem !important;
+  }
+
+  div.pad { page-break-inside:avoid; }
+
+  .container {
+    margin-top: 8px;
+  }
+
+  .layout {
+    margin-top: 1.5rem !important;
+  }
+
   a[href]:after {
     content: none !important;
   }
@@ -192,7 +210,11 @@ body {
     content: none !important;
   }
 
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .print-header-right {
+    text-align: right;
+  }
+
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-print-6 {
     float: left;
   }
   .col-sm-12 {
@@ -233,6 +255,9 @@ body {
   }
   .col-print-12 {
     width: 100%;
+  }
+  .col-print-6 {
+    width: 50%;
   }
 
   .no-print, .no-print * {
