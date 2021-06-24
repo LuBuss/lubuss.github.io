@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: lubuss/lubuss.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -8,18 +8,19 @@ version: 2
 # Personal info
 name: Luke Busstra
 title: Software Engineer
+phone: +614 1033 7037
 email: luke.busstra@gmail.com
+address: Melbourne, Australia
 # email_title: Email (Email title override)
-# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
+darktoggle: true
 
 # Social links
-twitter_username: jekyllrb
 github_username:  lubuss
 linkedin_username: lukebusstra
 
@@ -40,37 +41,11 @@ linkedin_username: lukebusstra
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Results-oriented and innovative Software Engineer with superior problem solving and critical thinking skills, as well as meticulous attention to detail and methodical nature. Skilled in tackling problems in unique ways to develop innovative solutions. Advanced understanding of Programming Paradigms with ability to pickup new languages quickly. Ready to work closely with both teams and customers to identify, develop, prototype and deploy the most efficient and beneficial solutions. 10+ years solving business problems, 5 years software development.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: center
-        title: My Dogs Day
-        quote: >
-          Pet services software 
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-      - layout: center
-        title: Cezerin 
-        link: https://github.com/Cezerin2/cezerin2
-        link_text: Link Text
-        additional_links:
-          - icon: fab fa-github
-            url: https://github.com/Cezerin2/cezerin2
-        quote: >
-          React and NodeJs eCommerce platform 
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -80,42 +55,90 @@ content:
         caption: March 2020 - present
         link: https://www.questpaymentsystems.com/
         description: | # this will include new lines to allow paragraphs
-          Description of role
-      - layout: right
+          Contributed software engineering expertise in the development of a payment platform through the software life-cycle, from requirements, Design, Implementation, Testing, Deployment, and Maintenance.
+          
+          Utilize software engineering practices in the development of future reporting system.
+          
+          Work across engineering teams and projects as priorities evolve to business objectives and customer requirements.
+          
+          Thoroughly monitor, analysis and diagnose system logs
+
+          **Skills**: <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>Python</mark>, <mark>Kotlin</mark>, <mark>Android</mark>, <mark>Express</mark>, <mark>Ecommerce</mark>, <mark>POS</mark>, <mark>jest</mark>, <mark>Django</mark>, <mark>Git</mark>, <mark>Jenkins</mark>, <mark>Kubernetes</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>Firebase</mark>, <mark>MSSQL</mark>, <mark>Postgres</mark>, <mark>ElasticSearch</mark>, <mark>Jira</mark>
+      - layout: left
         title: Cirrus Logic
         sub_title: Software Engineer
         caption: January 2017 - June 2019
         link: https://www.cirrus.com/
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Contributed software engineering expertise in the development of Audio Tuning Tools through the software life-cycle, from requirements, Design, Implementation, Testing, Deployment, and Maintenance.
+          
+          Collaborated with international and cross-disciplinary teams to determine requirement specifications for new applications and features.
+          
+          Troubleshoot technical issues with global customers spanning 4 time zones quickly and accurately.
+          
+          Revise, modularize and update legacy codebases to a modern development standard
+          
+          Exhibited strong time management and task prioritising skills resulting in completing project deadlines across multiple projects concurrently
+          
+          **Skills**: <mark>C#</mark>, <mark>C</mark>, <mark>Java</mark>, <mark>react</mark>, <mark>Android</mark>, <mark>NUnit</mark>, <mark>Git</mark>, <mark>SVN</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>NodeJs</mark>, <mark>Jira</mark>
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: My Dogs Day
+        caption: 2019 - Present
+        description: | # this will include new lines to allow paragraphs
+          Collaborate with business partners to refine and facilitate prioritization of requirements to address the immediate business needs.
+
+          Translate the business requirements into a dimensional data model and physical database.
+
+          Continually investigate, prototype new technologies and quickly pivot on promising technologies.
+
+          **Skills**: <mark>Flutter</mark>, <mark>Dart</mark>, <mark>firebase</mark>, <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>React/Reduce</mark>, <mark>AWS</mark>, <mark>Mongo</mark>, <mark>Git</mark>, <mark>Jenkins</mark>
+      - layout: left
+        title: Cezerin 
+        caption: 2019 - 2020
+        link: https://github.com/Cezerin2/cezerin2
+        link_text: https://github.com/Cezerin2/cezerin2
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/Cezerin2/cezerin2
+        description: | # this will include new lines to allow paragraphs
+          Reconnect and re-establish Cezerin open source community.
+
+          Support community by adding features, automation, feedback and code reviews.
+
+          Design, develop, test and deploy build pipelines for web applications using Amazon web services, Git, CircleCI and Seed.
+
+          **Skills**: <mark>react/reduce</mark>, <mark>Docker</mark>, <mark>NodeJs</mark>, <mark>git</mark>, <mark>Linux</mark>, <mark>Mongo</mark>, <mark>Express</mark>, <mark>AWS</mark>, <mark>Ecommerce</mark>
+
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Queensland University of Technology
         sub_title: BA Engineering in Computer Software and Systems
         caption: 2013 - 2017
-        quote: >
-          Graduated with GPA 6 with First Class Honours
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-      - layout: top-right
-        title: Queensland University of Technology
-        sub_title: Leadership, Development and Innovation Program
-        quote: >
-          Graduated with GPA 6 with First Class Honours
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: When I am not programming
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          **Achievements:** Graduate with GPA 6 with First Class Honours, Vacation Research Assistant
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          **Programming Coursework:** Cloud Computing, Machine Learning, Data Structures and Algorithms, Networks, High Performance and Parallel Computing, Real-Time Systems, Systems Programming 
+          
+          **EE Coursework:** Microprocessors and Digital Systems, Circuits, Engineering Problem Solving, Engineering Mathematics, Electrical Energy and Measurements
+      - layout: left
+        title: Leadership, Development and Innovation Program
+        sub_title: Queensland University of Technology
+        description: | # this will include new lines to allow paragraphs
+          **Coursework:** Adaptive Leadership, Communication Styles, Creative & Divergent Thinking, Facilitation Workshop, Group Decision-Making & Consensus Building, Leading High Performance, Learning Teams, Motivating Teams, Small Group/Team Dynamics, Time Management
+  # - title: When I am not programming
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
-references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
