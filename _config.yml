@@ -13,8 +13,8 @@ email: luke.busstra@gmail.com
 address: Melbourne, Australia
 # email_title: Email (Email title override)
 # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: https://lubuss.github.io
+website_title: Resume
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -43,43 +43,44 @@ gtag: "G-LTE1YM2FBL"
 # about_title: About Me (Use this to override about section title)
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Results-oriented and innovative Software Engineer with superior problem solving and critical thinking skills, as well as meticulous attention to detail and methodical nature. Skilled in tackling problems in unique ways to develop innovative solutions. Advanced understanding of Programming Paradigms with ability to pickup new languages quickly. Ready to work closely with both teams and customers to identify, develop, prototype and deploy the most efficient and beneficial solutions. 10+ years solving business problems, 5 years software development.
+  With over 10+ years of software engineering experience and a business management background, I'm a problem solver who excels at tackling complex projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project planning. I advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My leadership style adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an ambivert, I seamlessly transition between introverted contemplation and extroverted communication. With prior business management experience, I offer a well-rounded perspective to every project.
 
 content:
   - title: Experience
     layout: list
     content:
       - layout: left
+        title: Zeller
+        sub_title: Software Engineer
+        caption: September 2021 - Present
+        link: https://www.myzeller.com.au/
+        description: | # this will include new lines to allow paragraphs
+          ***Backend for Frontend Payment Domains:*** As the owner and technical lead, I architected the Card Not Present Payment Domain, overseeing the successful introduction of new features and payment methods. This reduced regression bugs through a comprehensive testing approach, including unit, system, integration, and end-to-end testing.
+
+          **Attribution Domain:** Led the design and architecture of the System-Wide Attribution Domain and associated services, significantly improving data attribution across the organization.
+
+          **Skills**: <mark>EDA</mark>, <mark>CQRS</mark>, <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>Payments</mark>, <mark>jest</mark>, <mark>Git</mark>, <mark>AWS</mark>, <mark>Postgres</mark>, <mark>Jira</mark>, <mark>Dynamodb</mark>, <mark>SQS</mark>, <mark>EventBridge</mark>, <mark>EventStore</mark>, <mark>Lambda</mark>
+      - layout: left
         title: Quest Payment Systems
         sub_title: Software Engineer
-        caption: March 2020 - present
+        caption: March 2020 - September 2021
         link: https://www.questpaymentsystems.com/
         description: | # this will include new lines to allow paragraphs
-          Contributed software engineering expertise in the development of a payment platform through the software life-cycle, from requirements, Design, Implementation, Testing, Deployment, and Maintenance.
-          
-          Utilize software engineering practices in the development of future reporting system.
-          
-          Work across engineering teams and projects as priorities evolve to business objectives and customer requirements.
-          
-          Thoroughly monitor, analysis and diagnose system logs
+          **Alternative Payments Domain:** Managed various payment methods, including ZipPay and Humm. Architected a new reporting system to replace the legacy system, ensuring accurate and efficient reporting. Diligently monitored, analyzed, diagnosed system logs, and resolved issues promptly.
+
+          **Cross-functional Collaboration:** Collaborated with other engineering teams and projects to align with business objectives and customer requirements.
 
           **Skills**: <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>Python</mark>, <mark>Kotlin</mark>, <mark>Android</mark>, <mark>Express</mark>, <mark>Ecommerce</mark>, <mark>POS</mark>, <mark>jest</mark>, <mark>Django</mark>, <mark>Git</mark>, <mark>Jenkins</mark>, <mark>Kubernetes</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>Firebase</mark>, <mark>MSSQL</mark>, <mark>Postgres</mark>, <mark>ElasticSearch</mark>, <mark>Jira</mark>
       - layout: left
-        title: Cirrus Logic
+        title: Cirrus Logic, Inc.
         sub_title: Software Engineer
         caption: January 2017 - June 2019
         link: https://www.cirrus.com/
         description: | # this will include new lines to allow paragraphs
-          Contributed software engineering expertise in the development of Audio Tuning Tools through the software life-cycle, from requirements, Design, Implementation, Testing, Deployment, and Maintenance.
-          
-          Collaborated with international and cross-disciplinary teams to determine requirement specifications for new applications and features.
-          
-          Troubleshoot technical issues with global customers spanning 4 time zones quickly and accurately.
-          
-          Revise, modularize and update legacy codebases to a modern development standard
-          
-          Exhibited strong time management and task prioritising skills resulting in completing project deadlines across multiple projects concurrently
-          
+          **Audio Tuning Tools Domain:** Automated the audio tuning spec definition process to user interface generation. Developed an automated system test framework to verify audio tuning spec definition to user interface generation. Modernized a legacy codebase for multi-OS support.
+
+          **Android Audio SDK Ownership:** Owned and maintained the Android Audio SDK for Cirrus Logic Audio Chips, ensuring compatibility with Android OEMs' devices.     
+
           **Skills**: <mark>C#</mark>, <mark>C</mark>, <mark>Java</mark>, <mark>react</mark>, <mark>Android</mark>, <mark>NUnit</mark>, <mark>Git</mark>, <mark>SVN</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>NodeJs</mark>, <mark>Jira</mark>
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -87,14 +88,13 @@ content:
       - layout: left
         title: My Dogs Day
         caption: 2019 - Present
+        link: https://demo.mydogsday.com
+        link_text:  |
+          https://demo.mydogsday.com (Username: demo@mydogsday.com, Password: MyDogsDay123)
         description: | # this will include new lines to allow paragraphs
-          Collaborate with business partners to refine and facilitate prioritization of requirements to address the immediate business needs.
+          Led the end-to-end development of a multi-platform offline support software application, encompassing requirement gathering, design, architectural planning, and successful implementation. This software efficiently oversees the entire business operations of my partner's dog walking company.
 
-          Translate the business requirements into a dimensional data model and physical database.
-
-          Continually investigate, prototype new technologies and quickly pivot on promising technologies.
-
-          **Skills**: <mark>Flutter</mark>, <mark>Dart</mark>, <mark>firebase</mark>, <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>React/Reduce</mark>, <mark>AWS</mark>, <mark>Mongo</mark>, <mark>Git</mark>, <mark>Jenkins</mark>
+          **Skills**: <mark>Flutter</mark>, <mark>Dart</mark>, <mark>Google Cloud</mark>, <mark>Firebase</mark>, <mark>NodeJs</mark>, <mark>React/Reduce</mark>, <mark>AWS</mark>, <mark>Mongo</mark>, <mark>Git</mark>, <mark>GitHub Actions</mark> <mark>Jenkins</mark>
       - layout: left
         title: Cezerin 
         caption: 2019 - 2020
@@ -104,11 +104,7 @@ content:
           - icon: fab fa-github
             url: https://github.com/Cezerin2/cezerin2
         description: | # this will include new lines to allow paragraphs
-          Reconnect and re-establish Cezerin open source community.
-
-          Support community by adding features, automation, feedback and code reviews.
-
-          Design, develop, test and deploy build pipelines for web applications using Amazon web services, Git, CircleCI and Seed.
+          Revitalized the Cezerin populator open-source ecommerce application, introducing new features and automation. Spearheaded the creation, testing, and deployment of web application build pipelines. Pioneered scalable AWS implementation strategies.
 
           **Skills**: <mark>react/reduce</mark>, <mark>Docker</mark>, <mark>NodeJs</mark>, <mark>git</mark>, <mark>Linux</mark>, <mark>Mongo</mark>, <mark>Express</mark>, <mark>AWS</mark>, <mark>Ecommerce</mark>
 
