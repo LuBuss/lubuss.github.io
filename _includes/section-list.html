@@ -5,6 +5,7 @@
         <h4>{{ item.title }}</h4>
         {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       </div>
+
       <div class="col-print-6 print-header-right">
         {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
@@ -28,6 +29,22 @@
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
       {{ item.description | strip | markdownify }}
+
+      {%- if item.highlights -%}
+        <ul class="highlights">
+          {% for highlight in item.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      {%- endif -%}
+      {%- if item.skills -%}
+        <p class="skills">
+          <b>Skills:</b>
+          {% for skill in item.skills %}
+            <mark>{{skill}}</mark>
+          {% endfor %}
+        </p>
+      {%- endif -%}
     </div>
   </div>
 {% endfor %}

@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Luke Busstra
-title: Software Engineer
+title: Senior Software Engineer | Tech Lead
 phone: +614 1033 7037
 email: luke.busstra@gmail.com
 address: Melbourne, Australia
@@ -35,97 +35,206 @@ linkedin_username: lukebusstra
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "G-LTE1YM2FBL"
+# gtm: "G-LTE1YM2FBL"ß
 gtag: "G-LTE1YM2FBL"
 # google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: Professional Overview
 about_content: | # this will include new lines to allow paragraphs
-  With over 10+ years of software engineering experience and a business management background, I'm a problem solver who excels at tackling complex projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project planning. I advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My leadership style adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an ambivert, I seamlessly transition between introverted contemplation and extroverted communication. With prior business management experience, I offer a well-rounded perspective to every project.
+
+  With over 10 years of software engineering experience and a business management background, I'm a problem solver who excels at tackling complex
+  projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project planning. I
+  advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My leadership style
+  adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an ambivert, I seamlessly
+  transition between introverted contemplation and extroverted communication. With prior business management experience, I offer a well-rounded
+  perspective on every project.
 
 content:
+  - title: Areas of Expertise
+    layout: list
+    content:
+      - layout: left-expertise
+        sub_title: Professional Skills
+        description: |
+          Agile Methodologies,
+          Teamwork and Collaboration,
+          Time Management and Prioritization,
+          Attention to Detail,
+          Stress Management and Resilience,
+          Effective Communication,
+          Problem-Solving and Critical Thinking,
+          Team Leadership and Management,
+          Project Management (Jira, Confluence),
+          Customer Support
+      - layout: left-expertise
+        sub_title: Technical Skills
+        description: |
+          Event-driven Architecture,
+          Serverless Architecture,
+          Language-Agnostic (Node.js, Golang, TypeScript, Python, Kotlin, C#, Dart, Java),
+          CI/CD (Jenkins, GitHub Actions, AWS CodePipeline),
+          AWS (Lambdas, SQS, EventBridge, RDS [Aurora/Postgres], DynamoDB, ApiGateway),
+          Google Cloud (Firebase, Functions, Firestore),
+          Databases (MSSQL, Firebase, ElasticSearch)
+          Microservices,
+          DevOps (Infrastructure as Code with AWS CloudFormation, Git)
   - title: Experience
     layout: list
     content:
       - layout: left
         title: Zeller
-        sub_title: Software Engineer
-        caption: September 2021 - Present
-        link: https://www.myzeller.com.au/
+        sub_title: Tech Lead & Senior Software Engineer
+        caption: Sept 2021 - Present
+        link: myzeller.com/
         description: | # this will include new lines to allow paragraphs
-          ***Backend for Frontend Payment Domains:*** As the owner and technical lead, I architected the Card Not Present Payment Domain, overseeing the successful introduction of new features and payment methods. This reduced regression bugs through a comprehensive testing approach, including unit, system, integration, and end-to-end testing.
-
-          **Attribution Domain:** Led the design and architecture of the System-Wide Attribution Domain and associated services, significantly improving data attribution across the organization.
-
-          **Skills**: <mark>EDA</mark>, <mark>CQRS</mark>, <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>Payments</mark>, <mark>jest</mark>, <mark>Git</mark>, <mark>AWS</mark>, <mark>Postgres</mark>, <mark>Jira</mark>, <mark>Dynamodb</mark>, <mark>SQS</mark>, <mark>EventBridge</mark>, <mark>EventStore</mark>, <mark>Lambda</mark>
+          Technical Lead for the Payments Backend for Frontend (BFF) Team across the company’s four platforms: Terminal, Mobile App, Web Dashboard, and 
+          Customer Relationship Management (CRM). Directly led a team of four engineers, ensuring continuous availability and scalability between peak and 
+          off-peak times, financial integrity and security, efficient and speedy transaction processing, and near real-time transaction reporting. Managed 
+          secondary domains such as POS Integrations, Attribution, and CRM Integrations.
+        highlights:
+          - <b>Card Not Present (CNP) Payment Domain:</b> Technical Owner, overseeing the end-to-end solution from frontend to payment gateway. 
+            Managed the implementation of a fully functional and scalable system, now the backbone of <a href="https://www.myzeller.com/virtual-terminal"
+            class="link" target="_blank">Virtual Terminal</a>,  <a href="https://www.myzeller.com/invoices" class="link" target="_blank">Invoices</a>, 
+            and <a href="https://www.myzeller.com/zeller-and-xero-integration" class="link" target="_blank">Xero Payment Integration</a>.
+          - <b>Architecture Uplift:</b> Spearheaded the redesign, reducing artifact size by 90%, improving deployment times, and cutting cold start 
+            times by 60%, enhancing overall system efficiency.
+          - <b>Attribution Domain:</b> Technical Owner and Solution Architect, uplifted domain events and defined implementation patterns for other tech 
+            leads. Critical for account recovery in the event of a hostile account takeover, enhancing overall security and reliability.
+          - <b>Oracle POS Integration:</b> Managed the <a href="https://www.myzeller.com/blog/oracle-and-zeller-team-up-to-power-restaurant-payments" 
+            class="link" target="_blank">Oracle POS Integration</a> project, delivering a high-impact solution for one of Zeller’s largest clients. 
+            This project enhanced customer experience and generated new revenue streams.
+          - <b>CRM Integration:</b> Implemented CRM integration, enabling Marketing to set custom campaign banners and dialogs for hundreds of thousands 
+            customers system-wide from 3 days to 30 minutes.
+        skills:
+          - CQRS
+          - NodeJs [Typescript]
+          - Golang
+          - Serverless 
+          - AWS Lambdas
+          - AWS SQS
+          - AWS EventBridge
+          - AWS RDS (Aurora/Postgres)
+          - AWS DynamoDB
+          - AWS ApiGateway
+          - Git / GitHub
+          - GitHub Actions
+          - AWS CloudFormation
+          - AWS CodePipeline
+          - Jira
+          - Confluence
+          - CI/CD
       - layout: left
         title: Quest Payment Systems
-        sub_title: Software Engineer
-        caption: March 2020 - September 2021
-        link: https://www.questpaymentsystems.com/
+        sub_title: Senior Software Engineer
+        caption: March 2020 - Sept 2021
+        link: questpaymentsystems.com/
         description: | # this will include new lines to allow paragraphs
-          **Alternative Payments Domain:** Managed various payment methods, including ZipPay and Humm. Architected a new reporting system to replace the legacy system, ensuring accurate and efficient reporting. Diligently monitored, analyzed, diagnosed system logs, and resolved issues promptly.
-
-          **Cross-functional Collaboration:** Collaborated with other engineering teams and projects to align with business objectives and customer requirements.
-
-          **Skills**: <mark>NodeJs</mark>, <mark>Typescript</mark>, <mark>Python</mark>, <mark>Kotlin</mark>, <mark>Android</mark>, <mark>Express</mark>, <mark>Ecommerce</mark>, <mark>POS</mark>, <mark>jest</mark>, <mark>Django</mark>, <mark>Git</mark>, <mark>Jenkins</mark>, <mark>Kubernetes</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>Firebase</mark>, <mark>MSSQL</mark>, <mark>Postgres</mark>, <mark>ElasticSearch</mark>, <mark>Jira</mark>
+          Senior Software Engineer for the Innovation team, responsible for the development of new products and features for Quest Payment Systems. Played a 
+          critical role in enhancing the company’s payment solutions, ensuring high availability, and providing quick resolution of issues.
+        highlights:
+          - <b>ZipPay Integration:</b> Directed the successful implementation of the  <a href="https://www.questpaymentsystems.com/zippay.html" class="link" 
+            target="_blank">ZipPay integration</a>, enhancing the company's payment solutions and improving customer satisfaction.
+          - <b>Real-Time Transaction Reporting System:</b> Developed a next-generation real-time transaction reporting system, supporting alternative payment
+            methods and improving transaction visibility for merchants and support teams.
+          - <b>Support for Alternative Payment Systems:</b> Provided critical support for alternative payment systems, ensuring high availability and quick
+            resolution of issues, 
+          - <b>Next-Gen Payment Systems Development:</b> Contributed to the development of next-gen payment systems like <a href="https://airpaypos.com/" 
+            class="link" target="_blank">Air Pay</a>, <a href="https://www.questpaymentsystems.com/tap-on-phone.html" class="link" target="_blank">Tap on 
+            Phone</a>, and <a href="https://www.donationpointgo.com/" class="link" target="_blank">Donation Point Go</a>. Supported their successful launch 
+            and operation.
+        skills:
+          - NodeJs [Javascript, Express]
+          - Python [Django]
+          - Android [Kotlin]
+          - Jenkins
+          - Docker
+          - Firebase
+          - MSSQL
+          - AWS
+          - ElasticSearch
       - layout: left
         title: Cirrus Logic, Inc.
         sub_title: Software Engineer
-        caption: January 2017 - June 2019
-        link: https://www.cirrus.com/
+        caption: Jan 2017 - June 2019
+        link: cirrus.com/
         description: | # this will include new lines to allow paragraphs
-          **Audio Tuning Tools Domain:** Automated the audio tuning spec definition process to user interface generation. Developed an automated system test framework to verify audio tuning spec definition to user interface generation. Modernized a legacy codebase for multi-OS support.
-
-          **Android Audio SDK Ownership:** Owned and maintained the Android Audio SDK for Cirrus Logic Audio Chips, ensuring compatibility with Android OEMs' devices.     
-
-          **Skills**: <mark>C#</mark>, <mark>C</mark>, <mark>Java</mark>, <mark>react</mark>, <mark>Android</mark>, <mark>NUnit</mark>, <mark>Git</mark>, <mark>SVN</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>AWS</mark>, <mark>NodeJs</mark>, <mark>Jira</mark>
+          Software Engineer in the Audio Tuning Tools team, part of the Australian Inovation department. apart of the responsible for developing and maintaining 
+          the tools used by Audio Engineers to tune Cirrus Logic Audio Chips.
+        highlights:
+          - <b>Tuning Specification UI Automation:</b> Automated the process of turning Audio Engineers specification document into a tooling UI, Automating 
+            90% of the configuration process, and reducing the time to generate a UI from 1 day to an hour.
+          - <b>Tuning Specification Automation Testing:</b> Developed a UI automation framework for the audio tuning tools domain, reducing manual testing 
+            time by 80%, detecting and Specification errors in 10% of UI.
+          - <b>Android Audio SDK Ownership:</b> Owned and maintained the Android Audio SDK for Cirrus Logic Audio Chips, ensuring compatibility with Android 
+            OEMs' devices.
+        skills:
+          - C#
+          - C
+          - Android [Java]
+          - NodeJs [React]
+          - SonarCloud
+          - Gerrit
+          - SVN
+          - Jenkins
+          - Docker
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: My Dogs Day
         caption: 2019 - Present
-        link: https://demo.mydogsday.com
-        link_text:  |
-          https://demo.mydogsday.com (Username: demo@mydogsday.com, Password: MyDogsDay123)
+        link: demo.mydogsday.com
         description: | # this will include new lines to allow paragraphs
-          Led the end-to-end development of a multi-platform offline support software application, encompassing requirement gathering, design, architectural planning, and successful implementation. This software efficiently oversees the entire business operations of my partner's dog walking company.
-
-          **Skills**: <mark>Flutter</mark>, <mark>Dart</mark>, <mark>Google Cloud</mark>, <mark>Firebase</mark>, <mark>NodeJs</mark>, <mark>React/Reduce</mark>, <mark>AWS</mark>, <mark>Mongo</mark>, <mark>Git</mark>, <mark>GitHub Actions</mark> <mark>Jenkins</mark>
+          Hobby project that I started with my partner to help manage there dog walking business. The application is a SaS multi-platform with offline support
+          managing customers, appointments, invoices, operators and regions. Application has evolved from a react single page application use AWS to a flutter 
+          mobile application with a firebase backend. This application is often used as a playground for new technologies and ideas.
+        skills:
+          - Flutter
+          - Dart
+          - Google Cloud
+          - Firebase
+          - NodeJs
+          - Git
+          - GitHub Actions
       - layout: left
         title: Cezerin 
         caption: 2019 - 2020
-        link: https://github.com/Cezerin2/cezerin2
-        link_text: https://github.com/Cezerin2/cezerin2
+        link: github.com/Cezerin2/cezerin2
+        link_text: github.com/Cezerin2/cezerin2
         additional_links:
           - icon: fab fa-github
-            url: https://github.com/Cezerin2/cezerin2
+            url: github.com/Cezerin2/cezerin2
         description: | # this will include new lines to allow paragraphs
           Revitalized the Cezerin populator open-source ecommerce application, introducing new features and automation. Spearheaded the creation, testing, and deployment of web application build pipelines. Pioneered scalable AWS implementation strategies.
 
-          **Skills**: <mark>react/reduce</mark>, <mark>Docker</mark>, <mark>NodeJs</mark>, <mark>git</mark>, <mark>Linux</mark>, <mark>Mongo</mark>, <mark>Express</mark>, <mark>AWS</mark>, <mark>Ecommerce</mark>
+        skills:
+          - React/Redux
+          - Docker
+          - NodeJs [Express, React/Redux]
+          - git
+          - MongoDb
 
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Queensland University of Technology
         sub_title: BA Engineering in Computer Software and Systems
         caption: 2013 - 2017
+        quote: Graduate with <b>GPA 6</b> with <b>First Class Honours</b>
         description: | # this will include new lines to allow paragraphs
-          **Achievements:** Graduate with GPA 6 with First Class Honours, Vacation Research Assistant
-
           **Programming Coursework:** Cloud Computing, Machine Learning, Data Structures and Algorithms, Networks, High Performance and Parallel Computing, Real-Time Systems, Systems Programming 
           
-          **EE Coursework:** Microprocessors and Digital Systems, Circuits, Engineering Problem Solving, Engineering Mathematics, Electrical Energy and Measurements
-      - layout: left
-        title: Leadership, Development and Innovation Program
-        sub_title: Queensland University of Technology
-        description: | # this will include new lines to allow paragraphs
-          **Coursework:** Adaptive Leadership, Communication Styles, Creative & Divergent Thinking, Facilitation Workshop, Group Decision-Making & Consensus Building, Leading High Performance, Learning Teams, Motivating Teams, Small Group/Team Dynamics, Time Management
+          **Electrical Engineering Coursework:** Microprocessors and Digital Systems, Circuits, Engineering Problem Solving, Engineering Mathematics, Electrical Energy and Measurements
+
+          <h4>Achievements</h4>
+        highlights:
+          - <b>Vacation Research Assistant:</b> Conduct research into Application Search, Develop a test bed for the research, and Implement a prototype for the research.
+          - <b>Leadership, Development and Innovation Program:</b> Participated in a program that focused on developing leadership skills, fostering innovation, and enhancing personal development.
+          - <b>Final Year Capstone:</b> GPS-OLRSd, Multi-UAV Flying Ad-Hoc Network (FANETs) for realtime communication in Disaster Recovery / rural areas. 
   # - title: When I am not programming
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs

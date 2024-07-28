@@ -156,10 +156,6 @@ body {
 
 .container {
   margin-top:30px;
-
-  @media print {
-    margin-top: 20px;
-  }
 }
 
 .header-contianer {
@@ -188,18 +184,24 @@ body {
     font-size: 2rem !important;
   }
 
-  p {
+  p, ul {
     font-size: 1.1rem !important;
   }
 
-  div.pad { page-break-inside:avoid; }
+  li {
+    a {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  // div.pad { page-break-inside:avoid; }
 
   .container {
     margin-top: 8px;
   }
 
   .layout {
-    margin-top: 1.5rem !important;
+    margin-top: 1rem !important;
   }
 
   a[href]:after {
