@@ -44,13 +44,12 @@ gtag: "G-LTE1YM2FBL"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_title: Professional Overview
 about_content: | # this will include new lines to allow paragraphs
-
-  With over 10 years of software engineering experience and a business management background, I'm a problem solver who excels at tackling complex
-  projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project planning. I
-  advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My leadership style
-  adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an ambivert, I seamlessly
-  transition between introverted contemplation and extroverted communication. With prior business management experience, I offer a well-rounded
-  perspective on every project.
+  With over ten years of software engineering experience and a background in business management, I’m a problem solver who excels at tackling
+  complex projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project 
+  planning. I advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My 
+  leadership style adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an 
+  ambivert, I seamlessly transition between introverted contemplation and extroverted communication. With prior business management experience,
+  I offer a well-rounded perspective on every project.
 
 content:
   - title: Areas of Expertise
@@ -74,11 +73,11 @@ content:
         description: |
           Event-driven Architecture,
           Serverless Architecture,
-          Language-Agnostic (Node.js, Golang, TypeScript, Python, Kotlin, C#, Dart, Java),
+          Language-Agnostic (NodeJs, Golang, TypeScript, Python, Kotlin, C#, Dart, Java),
           CI/CD (Jenkins, GitHub Actions, AWS CodePipeline),
           AWS (Lambdas, SQS, EventBridge, RDS [Aurora/Postgres], DynamoDB, ApiGateway),
           Google Cloud (Firebase, Functions, Firestore),
-          Databases (MSSQL, Firebase, ElasticSearch)
+          Databases (MSSQL, Firebase, ElasticSearch),
           Microservices,
           DevOps (Infrastructure as Code with AWS CloudFormation, Git)
   - title: Experience
@@ -88,26 +87,26 @@ content:
         title: Zeller
         sub_title: Tech Lead & Senior Software Engineer
         caption: Sept 2021 - Present
-        link: myzeller.com/
+        link: myzeller.com
         description: | # this will include new lines to allow paragraphs
-          Technical Lead for the Payments Backend for Frontend (BFF) Team across the company’s four platforms: Terminal, Mobile App, Web Dashboard, and 
-          Customer Relationship Management (CRM). Directly led a team of four engineers, ensuring continuous availability and scalability between peak and 
-          off-peak times, financial integrity and security, efficient and speedy transaction processing, and near real-time transaction reporting. Managed 
-          secondary domains such as POS Integrations, Attribution, and CRM Integrations.
+          Technical Lead for the Payments Backend for Frontend (BFF) Team across the company’s four platforms: Terminal, Mobile App, Web Dashboard, and
+          Customer Relationship Management (CRM). Directly led a team of four engineers, ensuring continuous availability and scalability between peak
+          and off-peak times, financial integrity and security, efficient and speedy transaction processing, and near real-time transaction reporting.
+          Managed secondary domains such as POS Integrations, Attribution, and CRM Integrations.
         highlights:
-          - <b>Card Not Present (CNP) Payment Domain:</b> Technical Owner, overseeing the end-to-end solution from frontend to payment gateway. 
-            Managed the implementation of a fully functional and scalable system, now the backbone of <a href="https://www.myzeller.com/virtual-terminal"
+          - <b>Card Not Present (CNP) Payment Domain:</b> Technical Owner, overseeing the end-to-end solution from frontend to payment gateway. Managed
+            the implementation of a fully functional and scalable system, now the backbone of <a href="https://www.myzeller.com/virtual-terminal"
             class="link" target="_blank">Virtual Terminal</a>,  <a href="https://www.myzeller.com/invoices" class="link" target="_blank">Invoices</a>, 
             and <a href="https://www.myzeller.com/zeller-and-xero-integration" class="link" target="_blank">Xero Payment Integration</a>.
-          - <b>Architecture Uplift:</b> Spearheaded the redesign, reducing artifact size by 90%, improving deployment times, and cutting cold start 
-            times by 60%, enhancing overall system efficiency.
-          - <b>Attribution Domain:</b> Technical Owner and Solution Architect, uplifted domain events and defined implementation patterns for other tech 
+          - <b>Architecture Uplift:</b> Spearheaded the redesign, reducing artifact size by 40%, improving deployment times, and cutting cold start times 
+            by 30%, enhancing overall system efficiency.
+          - <b>Attribution Domain:</b> Technical Owner and Solution Architect, uplifted domain events and defined implementation patterns for other tech
             leads. Critical for account recovery in the event of a hostile account takeover, enhancing overall security and reliability.
           - <b>Oracle POS Integration:</b> Managed the <a href="https://www.myzeller.com/blog/oracle-and-zeller-team-up-to-power-restaurant-payments" 
-            class="link" target="_blank">Oracle POS Integration</a> project, delivering a high-impact solution for one of Zeller’s largest clients. 
-            This project enhanced customer experience and generated new revenue streams.
-          - <b>CRM Integration:</b> Implemented CRM integration, enabling Marketing to set custom campaign banners and dialogs for hundreds of thousands 
-            customers system-wide from 3 days to 30 minutes.
+            class="link" target="_blank">Oracle POS Integration</a> project, delivering a high-impact solution for one of Zeller’s largest clients. This
+            project enhanced customer experience and generated new revenue streams.
+          - <b>CRM Integration:</b> Implemented CRM integration, enabling Marketing to set custom campaign banners and dialogs for hundreds of thousands
+            of customers system-wide from 7 days to 30 minutes.
         skills:
           - CQRS
           - NodeJs [Typescript]
@@ -130,20 +129,20 @@ content:
         title: Quest Payment Systems
         sub_title: Senior Software Engineer
         caption: March 2020 - Sept 2021
-        link: questpaymentsystems.com/
+        link: questpaymentsystems.com
         description: | # this will include new lines to allow paragraphs
-          Senior Software Engineer for the Innovation team, responsible for the development of new products and features for Quest Payment Systems. Played a 
+          Senior Software Engineer for the Innovation team, responsible for the development of new products and features for Quest Payment Systems. Played a
           critical role in enhancing the company’s payment solutions, ensuring high availability, and providing quick resolution of issues.
         highlights:
-          - <b>ZipPay Integration:</b> Directed the successful implementation of the  <a href="https://www.questpaymentsystems.com/zippay.html" class="link" 
+          - <b>ZipPay Integration:</b> Directed the successful implementation of the <a href="https://www.questpaymentsystems.com/zippay.html" class="link" 
             target="_blank">ZipPay integration</a>, enhancing the company's payment solutions and improving customer satisfaction.
           - <b>Real-Time Transaction Reporting System:</b> Developed a next-generation real-time transaction reporting system, supporting alternative payment
             methods and improving transaction visibility for merchants and support teams.
-          - <b>Support for Alternative Payment Systems:</b> Provided critical support for alternative payment systems, ensuring high availability and quick
-            resolution of issues, 
+          - <b>Support for Alternative Payment Systems:</b> Provided critical support for alternative payment systems, ensuring high availability and quick 
+            resolution of issues.
           - <b>Next-Gen Payment Systems Development:</b> Contributed to the development of next-gen payment systems like <a href="https://airpaypos.com/" 
             class="link" target="_blank">Air Pay</a>, <a href="https://www.questpaymentsystems.com/tap-on-phone.html" class="link" target="_blank">Tap on 
-            Phone</a>, and <a href="https://www.donationpointgo.com/" class="link" target="_blank">Donation Point Go</a>. Supported their successful launch 
+            Phone</a>, and <a href="https://www.donationpointgo.com/" class="link" target="_blank">Donation Point Go</a>. Supported their successful launch
             and operation.
         skills:
           - NodeJs [Javascript, Express]
@@ -159,15 +158,15 @@ content:
         title: Cirrus Logic, Inc.
         sub_title: Software Engineer
         caption: Jan 2017 - June 2019
-        link: cirrus.com/
+        link: cirrus.com
         description: | # this will include new lines to allow paragraphs
-          Software Engineer in the Audio Tuning Tools team, part of the Australian Inovation department. apart of the responsible for developing and maintaining 
-          the tools used by Audio Engineers to tune Cirrus Logic Audio Chips.
+          Software Engineer in the Audio Tuning Tools team, part of the Australian Innovation department. Responsible for developing and maintaining the tools
+          used by Audio Engineers to tune Cirrus Logic Audio Chips.
         highlights:
-          - <b>Tuning Specification UI Automation:</b> Automated the process of turning Audio Engineers specification document into a tooling UI, Automating 
-            90% of the configuration process, and reducing the time to generate a UI from 1 day to an hour.
-          - <b>Tuning Specification Automation Testing:</b> Developed a UI automation framework for the audio tuning tools domain, reducing manual testing 
-            time by 80%, detecting and Specification errors in 10% of UI.
+          - <b>Tuning Specification UI Automation:</b> Automated the process of turning Audio Engineers' specification documents into a tooling UI, automating 
+            80% of the configuration process, and reducing the time to generate a UI from 1 day to an hour.
+          - <b>Tuning Specification Automation Testing:</b> Developed a UI automation framework for the audio tuning tools domain, reducing manual 
+            testing time by 60%, detecting specification errors in 40% of UIs.
           - <b>Android Audio SDK Ownership:</b> Owned and maintained the Android Audio SDK for Cirrus Logic Audio Chips, ensuring compatibility with Android 
             OEMs' devices.
         skills:
@@ -188,9 +187,10 @@ content:
         caption: 2019 - Present
         link: demo.mydogsday.com
         description: | # this will include new lines to allow paragraphs
-          Hobby project that I started with my partner to help manage there dog walking business. The application is a SaS multi-platform with offline support
-          managing customers, appointments, invoices, operators and regions. Application has evolved from a react single page application use AWS to a flutter 
-          mobile application with a firebase backend. This application is often used as a playground for new technologies and ideas.
+          Hobby project that I started with my partner to help manage her dog walking business. The application is a SaaS multi-platform
+          with offline support managing customers, appointments, invoices, operators, and regions. The application has evolved from a React
+          single page application using AWS to a Flutter mobile application with a Firebase backend. This application is often used as a
+          playground for new technologies and ideas.
         skills:
           - Flutter
           - Dart
@@ -208,7 +208,8 @@ content:
           - icon: fab fa-github
             url: github.com/Cezerin2/cezerin2
         description: | # this will include new lines to allow paragraphs
-          Revitalized the Cezerin populator open-source ecommerce application, introducing new features and automation. Spearheaded the creation, testing, and deployment of web application build pipelines. Pioneered scalable AWS implementation strategies.
+          Revitalized the Cezerin populator open-source ecommerce application, introducing new features and automation. Spearheaded the creation,
+          testing, and deployment of web application build pipelines. Pioneered scalable AWS implementation strategies.
 
         skills:
           - React/Redux
@@ -226,15 +227,21 @@ content:
         caption: 2013 - 2017
         quote: Graduate with <b>GPA 6</b> with <b>First Class Honours</b>
         description: | # this will include new lines to allow paragraphs
-          **Programming Coursework:** Cloud Computing, Machine Learning, Data Structures and Algorithms, Networks, High Performance and Parallel Computing, Real-Time Systems, Systems Programming 
+          **Programming Coursework:** Cloud Computing, Machine Learning, Data Structures and Algorithms, Networks, High 
+          Performance and Parallel Computing, Real-Time Systems, Systems Programming 
           
-          **Electrical Engineering Coursework:** Microprocessors and Digital Systems, Circuits, Engineering Problem Solving, Engineering Mathematics, Electrical Energy and Measurements
+          **Electrical Engineering Coursework:** Microprocessors and Digital Systems, Circuits, Engineering Problem Solving,
+          Engineering Mathematics, Electrical Energy and Measurements
 
           <h4>Achievements</h4>
         highlights:
-          - <b>Vacation Research Assistant:</b> Conduct research into Application Search, Develop a test bed for the research, and Implement a prototype for the research.
-          - <b>Leadership, Development and Innovation Program:</b> Participated in a program that focused on developing leadership skills, fostering innovation, and enhancing personal development.
-          - <b>Final Year Capstone:</b> GPS-OLRSd, Multi-UAV Flying Ad-Hoc Network (FANETs) for realtime communication in Disaster Recovery / rural areas. 
+          - <b>Vacation Research Assistant:</b> Conducted research into Application Search, developed a test bed for the research, 
+            and implemented a prototype for the research.
+          - <b>Leadership, Development and Innovation Program:</b>  Participated in a program that focused on developing leadership
+            skills, fostering innovation, and enhancing personal development.
+          - <b>Final Year Capstone:</b> GPS-OLRSd, Multi-UAV Flying Ad-Hoc Network (FANETs) for real-time communication in Disaster
+            Recovery / rural areas.
+ 
   # - title: When I am not programming
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
