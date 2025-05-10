@@ -120,6 +120,8 @@ content:
             which enhanced on-call debugging efficiency.
           - <b>Mentored and developed engineering talent</b>, guiding a senior engineer into a team 
             lead role and fostering expertise in event-driven architecture and system design.
+          - <b>Integrated AI-driven solutions</b> to enhance team productivity, streamline workflows, 
+            and improve decision-making in system design
         skills:
           - Backend Engineering [NodeJs (Typescript), Golang]
           - Event-Driven Architecture [CQRS, AWS SQS, AWS EventBridge]
