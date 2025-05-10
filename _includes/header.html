@@ -104,6 +104,13 @@
             </a>
           </li>
         {% endfor %}
+        {%- if site.print -%}
+          <li>
+            <a href="#" class="button button--sacnite button--round-l" onclick="window.print();">
+              <i class="fas fa-print" title="Print this page"></i>
+            </a>
+          </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
