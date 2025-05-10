@@ -6,9 +6,9 @@ repository: lubuss/lubuss.github.io
 version: 2
 
 # Personal info
-name: Luke Busstra
-title: Senior Software Engineer | Tech Lead
-phone: +614 1033 7037
+name: Lucy (Luke) Busstra
+title: Technical Lead & Software Engineer
+# phone: +614 1033 7037
 email: luke.busstra@gmail.com
 address: Melbourne, Australia
 # email_title: Email (Email title override)
@@ -36,7 +36,7 @@ print: true
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "G-LTE1YM2FBL"ß
+# gtm: "G-LTE1YM2FBL"
 gtag: "G-LTE1YM2FBL"
 # google_analytics: "UA-00000000-0"
 
@@ -45,12 +45,12 @@ gtag: "G-LTE1YM2FBL"
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_title: Professional Overview
 about_content: | # this will include new lines to allow paragraphs
-  With over ten years of software engineering experience and a background in business management, I’m a problem solver who excels at tackling
-  complex projects while prioritizing stakeholder values. Collaboration is central to my approach, embracing diverse team input during project 
-  planning. I advocate for agile systems engineering principles and firmly believe in overcoming challenges through resourceful solutions. My 
-  leadership style adapts to the situation, often leaning towards transformational, delegate, and coaching styles to foster growth. As an 
-  ambivert, I seamlessly transition between introverted contemplation and extroverted communication. With prior business management experience,
-  I offer a well-rounded perspective on every project.
+  <b>Technical Lead and Software Engineer</b> with a passion for building modular, 
+  scalable, and maintainable systems. I specialize in designing clear, testable 
+  architectures that prioritize resilience, readability, and long-term team 
+  velocity. With hands-on leadership experience, I drive engineering best 
+  practices, enable clean code culture, and guide teams through complex 
+  technical decisions from system design to production reliability.
 
 content:
   - title: Areas of Expertise
@@ -59,28 +59,39 @@ content:
       - layout: left-expertise
         sub_title: Professional Skills
         description: |
-          Agile Methodologies,
-          Teamwork and Collaboration,
-          Time Management and Prioritization,
-          Attention to Detail,
-          Stress Management and Resilience,
-          Effective Communication,
-          Problem-Solving and Critical Thinking,
-          Team Leadership and Management,
-          Project Management (Jira, Confluence),
-          Customer Support
+          Driving Scalable System Design,
+          Technical Vision & Decision-Making,
+          Performance Optimization & Reliability Engineering,
+          Engineering Excellence (Code Quality, Testing Strategies, Maintainability),
+          DevOps & Tooling Enablement,
+          Agile Delivery & Iterative Development,
+          Prioritization, Scope Management & Risk Assessment,
+          Cross-Functional Collaboration & Communication,
+          Mentorship & Team Enablement,
+          Delegation & Empowerment,
+          Stakeholder Management,
+          Feedback Delivery & Coaching,
+          Empathy & Emotional Intelligence,
+          Clarity of Communication,
+          Accountability & Ownership,
+          Growth Mindset & Continuous Improvement,
+          Team Building & Leadership
+          C4 Modeling for Architecture Visualization
       - layout: left-expertise
         sub_title: Technical Skills
         description: |
-          Event-driven Architecture,
-          Serverless Architecture,
-          Language-Agnostic (NodeJs, Golang, TypeScript, Python, Kotlin, C#, Dart, Java),
-          CI/CD (Jenkins, GitHub Actions, AWS CodePipeline),
-          AWS (Lambdas, SQS, EventBridge, RDS [Aurora/Postgres], DynamoDB, ApiGateway),
-          Google Cloud (Firebase, Functions, Firestore),
-          Databases (MSSQL, Firebase, ElasticSearch),
-          Microservices,
-          DevOps (Infrastructure as Code with AWS CloudFormation, Git)
+          Technical Leadership (System Design, Architecture Ownership, Mentorship),
+          Backend Engineering (NodeJs/Typescript, Golang, Language-Agnostic),
+          API Design & Management (REST, GraphQL),
+          Database Design & Management (Aurora/Postgres, DynamoDB, Firebase),
+          Infrastructure & DevOps (AWS CloudFormation, Terraform, Serverless, GitHub Actions),
+          Observability & Monitoring (Datadog, Sentry, CloudWatch),
+          Microservices & Event-driven Architecture (AWS SQS, AWS EventBridge, CQRS),
+          Scalability & Performance Optimization,
+          Testing & Quality Assurance (Unit, System, Integration, E2E),
+          Code Review Mastery,
+          RFCs & Proposal Writing,
+          Technical Writing
   - title: Experience
     layout: list
     content:
@@ -90,42 +101,32 @@ content:
         caption: Sept 2021 - Present
         link: myzeller.com
         description: | # this will include new lines to allow paragraphs
-          Technical Lead for the Payments Backend for Frontend (BFF) Team across the company’s four platforms: Terminal, Mobile App, Web Dashboard, and
-          Customer Relationship Management (CRM). Directly led a team of four engineers, ensuring continuous availability and scalability between peak
-          and off-peak times, financial integrity and security, efficient and speedy transaction processing, and near real-time transaction reporting.
-          Managed secondary domains such as POS Integrations, Attribution, and CRM Integrations.
+          Led a 10-engineer team within Zeller’s BFF Payments group, driving the design and delivery 
+          of event-driven backend systems that power customer transactions, enhance CRM integrations, 
+          and ensure platform scalability and reliability. Championed engineering best practices, 
+          fostered team growth, and aligned technical solutions with business objectives.
         highlights:
-          - <b>Card Not Present (CNP) Payment Domain:</b> Technical Owner, overseeing the end-to-end solution from frontend to payment gateway. Managed
-            the implementation of a fully functional and scalable system, now the backbone of <a href="https://www.myzeller.com/virtual-terminal"
-            class="link" target="_blank">Virtual Terminal</a>,  <a href="https://www.myzeller.com/invoices" class="link" target="_blank">Invoices</a>, 
-            and <a href="https://www.myzeller.com/zeller-and-xero-integration" class="link" target="_blank">Xero Payment Integration</a>.
-          - <b>Architecture Uplift:</b> Spearheaded the redesign, reducing artifact size by 40%, improving deployment times, and cutting cold start times 
-            by 30%, enhancing overall system efficiency.
-          - <b>Attribution Domain:</b> Technical Owner and Solution Architect, uplifted domain events and defined implementation patterns for other tech
-            leads. Critical for account recovery in the event of a hostile account takeover, enhancing overall security and reliability.
-          - <b>Oracle POS Integration:</b> Managed the <a href="https://www.myzeller.com/blog/oracle-and-zeller-team-up-to-power-restaurant-payments" 
-            class="link" target="_blank">Oracle POS Integration</a> project, delivering a high-impact solution for one of Zeller’s largest clients. This
-            project enhanced customer experience and generated new revenue streams.
-          - <b>CRM Integration:</b> Implemented CRM integration, enabling Marketing to set custom campaign banners and dialogs for hundreds of thousands
-            of customers system-wide from 7 days to 30 minutes.
+          - <b>Architected and owned 6 core components</b> in Go and TypeScript, leading the design 
+            of 4 systems to enable event-driven workflows and seamless frontend integration.
+          - <b>Managed and optimized 15+ microservices</b> across Zeller’s BFF platform, establishing 
+            patterns for scalability, resilience, and deployment consistency.
+          - <b>Designed and launched 4 new payment channels</b>, delivering authentication, event 
+            processing, and reporting flows that increased transaction volume.
+          - <b>Led the design of a greenfield on-premises payments integration platform</b>,
+            enabling first of its kind on-premises pay at table integration.
+          - <b>Implemented a comprehensive BFF test pyramid</b>, improving test coverage across unit, 
+            system, integration, and contract levels, reducing production bugs.
+          - <b>Standardized observability practices</b>, reducing noise and improving traceability, 
+            which enhanced on-call debugging efficiency.
+          - <b>Mentored and developed engineering talent</b>, guiding a senior engineer into a team 
+            lead role and fostering expertise in event-driven architecture and system design.
         skills:
-          - CQRS
-          - NodeJs [Typescript]
-          - Golang
-          - Serverless 
-          - AWS Lambdas
-          - AWS SQS
-          - AWS EventBridge
-          - AWS RDS (Aurora/Postgres)
-          - AWS DynamoDB
-          - AWS ApiGateway
-          - Git / GitHub
-          - GitHub Actions
-          - AWS CloudFormation
-          - AWS CodePipeline
-          - Jira
-          - Confluence
-          - CI/CD
+          - Backend Engineering [NodeJs (Typescript), Golang]
+          - Event-Driven Architecture [CQRS, AWS SQS, AWS EventBridge]
+          - Cloud Infrastructure [AWS (Lambdas, RDS, DynamoDB, ApiGateway, CloudFormation, CodePipeline)]
+          - CI/CD [GitHub Actions, CI/CD Pipelines, AWS CodeBuild]
+          - Observability [Datadog, Monitoring, Debugging]
+          - Tools [Git, Jira, Confluence]
       - layout: left
         title: Quest Payment Systems
         sub_title: Senior Software Engineer
@@ -188,10 +189,13 @@ content:
         caption: 2019 - Present
         link: demo.mydogsday.com
         description: | # this will include new lines to allow paragraphs
-          Hobby project that I started with my partner to help manage her dog walking business. The application is a SaaS multi-platform
-          with offline support managing customers, appointments, invoices, operators, and regions. The application has evolved from a React
-          single page application using AWS to a Flutter mobile application with a Firebase backend. This application is often used as a
-          playground for new technologies and ideas.
+          A SaaS platform designed to manage dog walking businesses, featuring offline 
+          support, multi-user functionality, and real-time data synchronization. Initially
+          developed as a React single-page application hosted on AWS, it evolved into a
+          Flutter-based mobile application with a Firebase backend. The platform handles
+          customer management, appointment scheduling, invoicing, and regional operations.
+          This project serves as a playground for experimenting with new technologies and
+          implementing best practices in software development.
         skills:
           - Flutter
           - Dart
@@ -209,8 +213,11 @@ content:
           - icon: fab fa-github
             url: github.com/Cezerin2/cezerin2
         description: | # this will include new lines to allow paragraphs
-          Revitalized the Cezerin populator open-source ecommerce application, introducing new features and automation. Spearheaded the creation,
-          testing, and deployment of web application build pipelines. Pioneered scalable AWS implementation strategies.
+          Contributed to revitalizing the Cezerin open-source e-commerce application,
+          introducing new features and automation. Spearheaded the creation, testing,
+          and deployment of web application build pipelines. Pioneered scalable AWS
+          implementation strategies, which influenced my approach to modern cloud-native
+          architectures.
 
         skills:
           - React/Redux
@@ -218,6 +225,17 @@ content:
           - NodeJs [Express, React/Redux]
           - git
           - MongoDb
+
+  - title: Professional Development
+    layout: list
+    content:
+      - layout: left
+        title: YOW! Conferences
+        caption: 2012 - Present
+        description: |
+          Regular attendee of YOW! Conferences, engaging with industry leaders 
+          and staying updated on cutting-edge trends in software engineering, 
+          architecture, and backend technologies.
 
   - title: Education
     layout: list

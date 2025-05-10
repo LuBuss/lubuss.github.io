@@ -181,7 +181,8 @@ body {
 
 @media print {
   body {
-    zoom: 95%;
+    transform: scale(0.97); /* Scale down to 97% */
+    // zoom: 97%;
   }
 
   h4 {
